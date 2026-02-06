@@ -1,4 +1,4 @@
-# Login App
+# Authentication Project
 
 A secure, full-stack web application featuring Spring Boot for the backend and a modern HTML/CSS/JS frontend. It implements JWT-based authentication with a premium, responsive UI.
 
