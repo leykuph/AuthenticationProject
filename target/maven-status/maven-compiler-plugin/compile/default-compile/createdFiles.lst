@@ -1,5 +1,4 @@
 com/loginapp/service/CustomUserDetailsService.class
-com/loginapp/controller/HelloController.class
 com/loginapp/config/WebConfig.class
 com/loginapp/repository/UserRepository.class
 com/loginapp/config/WebConfig$1.class

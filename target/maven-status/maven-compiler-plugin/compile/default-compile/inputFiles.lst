@@ -10,6 +10,5 @@
 /Users/elleco/Documents/GitHub/loginapp/src/main/java/com/loginapp/service/UserService.java
 /Users/elleco/Documents/GitHub/loginapp/src/main/java/com/loginapp/dto/RegisterRequest.java
 /Users/elleco/Documents/GitHub/loginapp/src/main/java/com/loginapp/config/JwtAuthenticationFilter.java
-/Users/elleco/Documents/GitHub/loginapp/src/main/java/com/loginapp/controller/HelloController.java
 /Users/elleco/Documents/GitHub/loginapp/src/main/java/com/loginapp/model/User.java
 /Users/elleco/Documents/GitHub/loginapp/src/main/java/com/loginapp/dto/UserResponse.java

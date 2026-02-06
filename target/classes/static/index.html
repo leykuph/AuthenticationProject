@@ -7,7 +7,7 @@
 
 <style>
 :root {
-  /* OC palette */
+  /* Palette */
   --bg-main: #1A1626;
   --bg-card: #221C34;
   --bg-soft: #2A2342;
@@ -128,10 +128,8 @@ button:hover {
 
 <script src="js/auth.js"></script>
 <script>
-  // Protect this page
   Auth.requireAuth();
 
-  // Display username
   document.getElementById('username-display').textContent = Auth.getUsername();
 </script>
 </body>

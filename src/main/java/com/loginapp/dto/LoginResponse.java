@@ -1,15 +1,14 @@
 package com.loginapp.dto;
 
 public class LoginResponse {
-    private String token;
     private String username;
-
+    private String token;
     public LoginResponse() {
     }
 
-    public LoginResponse(String token, String username) {
-        this.token = token;
+    public LoginResponse(String username, String token) {
         this.username = username;
+        this.token = token;
     }
 
     public String getToken() {

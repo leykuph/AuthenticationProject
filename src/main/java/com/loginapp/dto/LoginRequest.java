@@ -3,15 +3,12 @@ package com.loginapp.dto;
 public class LoginRequest {
     private String username;
     private String password;
-    private String confirmPassword;
-
     public LoginRequest() {
     }
 
-    public LoginRequest(String username, String password, String confirmPassword) {
+    public LoginRequest(String username, String password) {
         this.username = username;
         this.password = password;
-        this.confirmPassword = confirmPassword;
     }
 
     public String getUsername() {
@@ -24,14 +21,6 @@ public class LoginRequest {
 
     public String getPassword() {
         return password;
-    }
-
-    public String getConfirmPassword() {
-        return confirmPassword;
-    }
-
-    public void setConfirmPassword(String confirmPassword) {
-        this.confirmPassword = confirmPassword;
     }
 
     public void setPassword(String password) {

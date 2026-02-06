@@ -45,9 +45,6 @@ public class UserService {
         if (!request.getPassword().matches(".*\\d.*")) {
             throw new IllegalArgumentException("Password must contain at least one number");
         }
-        if (!request.getPassword().matches(".*\\d.*")) {
-            throw new IllegalArgumentException("Password must contain at least one number");
-        }
 
         String passwordHash = passwordEncoder.encode(request.getPassword());
         User user = new User(request.getUsername(), passwordHash);
